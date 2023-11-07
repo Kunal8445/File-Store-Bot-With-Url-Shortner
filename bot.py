@@ -83,7 +83,7 @@ async def start(bot: Client, cmd: Message):
                     ],
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/+2osQJSbozM44N2Zl"),
-                        InlineKeyboardButton("YouTube Channel", url="")
+                        InlineKeyboardButton("YouTube Channel", url="https://t.me/+2osQJSbozM44N2Zl")
                     ]
                 ]
             )
@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://youtube.com/@Tech_VJ")
+                                             url="https://t.me/+2osQJSbozM44N2Zl")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -337,7 +337,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="")
+                                             url="https://t.me/+2osQJSbozM44N2Zl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
