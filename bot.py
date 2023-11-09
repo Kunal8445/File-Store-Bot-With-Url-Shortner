@@ -363,7 +363,6 @@ async def button(bot: Client, cmd: CallbackQuery):
                     ],
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/+2osQJSbozM44N2Zl"),
-                        InlineKeyboardButton("YouTube Channel", url="")
                     ]
                 ]
             )
@@ -401,7 +400,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/+2osQJSbozM44N2Zl).",
+                    text="Wait a Second",
                     disable_web_page_preview=True
                 )
                 return
